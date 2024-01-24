@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="bookForm"  onsubmit="submitForm(event)">
+        <div>
+            <label for="title">Book title:</label>
+            <input type="text" id="title" name="title"> 
+        </div>
+        <div>
+            <label for="author">Book author:</label>
+            <input type="text" id="author" name="author">    
+        </div>
+        <div>
+            <label for="genre">Book genre:</label>
+            <input type="text" id="genre" name="genre">    
+        </div>
+        <div>
+            <label for="description">Book description:</label>
+            <input type="text" id="description" name="description">    
+        </div>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    
+    </body>
+<script src="scripts.js"></script>
+</html>
